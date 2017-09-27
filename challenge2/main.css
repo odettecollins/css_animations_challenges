@@ -1,0 +1,6 @@
+.box {
+ background-color: #0799d3;
+ width:100px;
+ height: 100px;  
+ animation: toCircle 1s 6 alternate ease-in-out;
+}

@@ -1,0 +1,26 @@
+.box {
+  background-color: #0799d3;
+  width: 100px;
+  height: 100px;
+  animation: toCircle 1s 3 ease-in-out;
+}
+
+@keyframes toCircle {
+  from {
+    border-radius: 0;
+  }
+
+  to {
+    border-radius: 100%;
+  }
+}
+
+@-webkit-keyframes toCircle {
+  from {
+    border-radius: 0;
+  }
+
+  to {
+    border-radius: 100%;
+  }
+}
